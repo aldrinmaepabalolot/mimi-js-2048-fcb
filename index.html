@@ -1,0 +1,71 @@
+<!-- press ctr + s -->
+<!--  -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Meta tags contains information about the website without displaying it in the actual web page :) -->
+
+		<meta charset="utf-8">
+		<!-- mobile responsiveness -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>2048</title>
+
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+
+		<div class="container">
+			<h1>2048</h1> <!-- paired tag -->
+			<h2>Created By: Mimi</h2>
+			<hr id="top-line"/> <!-- horizontal -->
+
+			<div class="header-container">
+				<div class="score-container">
+					<div class="score-label">
+						Score:
+					</div>
+					<div id="score">
+						0
+					</div>
+				</div>
+				<div class="share-button-container">
+					<div class="share-label">
+						Share:
+					</div>
+					<div class="share-icons">
+						<a href="https://www.facebook.com/sharer/sharer.php?u=[deployment-link]" target="_blank"><!-- target-open new tab -->
+							<img src="./images/share_2048-fb.svg">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="board"> <!-- div-division -->
+				<!-- Ctrl + Shift + D - to copy the entire line of code -->
+
+				<!-- <div class="tile">[r0,c0]</div>
+				<div class="tile">[r0,c1]</div>
+				<div class="tile">[r0,c2]</div>
+				<div class="tile">[r0,c3]</div>
+
+				<div class="tile">[r1,c0]</div>
+				<div class="tile">[r1,c1]</div>
+				<div class="tile">[r1,c2]</div>
+				<div class="tile">[r1,c3]</div>
+
+				<div class="tile">[r2,c0]</div>
+				<div class="tile">[r2,c1]</div>
+				<div class="tile">[r2,c2]</div>
+				<div class="tile">[r2,c3]</div>
+
+				<div class="tile">[r3,c0]</div>
+				<div class="tile">[r3,c1]</div>
+				<div class="tile">[r3,c2]</div>
+				<div class="tile">[r3,c3]</div> -->
+			</div>
+		</div>
+
+		<!-- link js file -->
+		<script type="text/javascript" src="logic.js"></script>
+	</body>
+</html>
